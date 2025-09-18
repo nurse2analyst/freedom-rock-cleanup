@@ -1,6 +1,6 @@
 Freedom Rock Bicycles: Data Cleanup (Excel Project)
-Overview
 
+Overview
 This project demonstrates Excel-based data cleaning and organization for employee and order records at Freedom Rock Bicycles. The goal was to turn messy, inconsistent data into a clean, reliable dataset ready for reporting and decision-making.
 
 📂 Files:
@@ -10,7 +10,6 @@ Raw Data
 Cleaned Data
 
 Key Work
-
 Employees Data
 
 Removed duplicates and corrected errors
@@ -46,6 +45,7 @@ Functions: TRIM(), YEAR(), TODAY()
 Text to Columns, Remove Duplicates, Find & Replace
 
 Project Structure
+
 freedom-rock-cleanup/
 ├── raw_data/           # Original files
 ├── cleaned_data/       # Cleaned employee & order data
