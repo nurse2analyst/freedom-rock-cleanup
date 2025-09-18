@@ -3,7 +3,7 @@
 ## Overview  
 This project demonstrates Excel-based data cleaning and organization for employee and order records at Freedom Rock Bicycles. The goal was to turn messy, inconsistent data into a clean, reliable dataset ready for reporting and decision-making.  
 
----
+
 
 ## Files  
 - **Raw Data**  [freedomrock_raw_2025.xlsx](https://github.com/user-attachments/files/22412086/freedomrock_raw_2025.xlsx)
@@ -11,7 +11,7 @@ This project demonstrates Excel-based data cleaning and organization for employe
 - **Cleaned Data**  [freedomrock_clean_2025.xlsx](https://github.com/user-attachments/files/22412089/freedomrock_clean_2025.xlsx)
 
 
----
+
 
 ## Key Work  
 
@@ -26,7 +26,7 @@ This project demonstrates Excel-based data cleaning and organization for employe
 - Split full names into first/last name  
 - Improved layout for readability  
 
----
+
 
 ## Insights & Recommendations  
 - Some order records are missing location details (critical for delivery).  
@@ -38,9 +38,9 @@ This project demonstrates Excel-based data cleaning and organization for employe
 - Functions: `TRIM()`, `YEAR()`, `TODAY()`  
 - Text to Columns, Remove Duplicates, Find & Replace  
 
----
 
-## 📁 Project Structure  
+
+## Project Structure  
 freedom-rock-cleanup/
 ├── raw_data/ # Original files
 ├── cleaned_data/ # Cleaned employee & order data
