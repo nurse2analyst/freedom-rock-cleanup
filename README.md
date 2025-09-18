@@ -1,80 +1,53 @@
-Freedom Rock Bicycles: Employee & Order Data Cleanup (Excel Project)
-Project Overview
+Freedom Rock Bicycles: Data Cleanup (Excel Project)
+Overview
 
-This project focused on cleaning and standardizing employee and order data for Freedom Rock Bicycles. The data had been inconsistently managed, leading to formatting issues, missing values, and lack of standardization. My objective was to make the dataset accurate, consistent, and ready for reporting and analysis.
+This project demonstrates Excel-based data cleaning and organization for employee and order records at Freedom Rock Bicycles. The goal was to turn messy, inconsistent data into a clean, reliable dataset ready for reporting and decision-making.
 
-The work was completed in two main areas:
-
-Employees worksheet — standardizing staff records, correcting errors, and creating calculated fields.
-
-Orders worksheet — parsing raw order data, reformatting for clarity, and preparing it for quality checks.
-
-📂 Example files:
+📂 Files:
 
 Raw Data
 
 Cleaned Data
 
-Work Completed
-Employees Worksheet
+Key Work
 
-Removed duplicate entries.
+Employees Data
 
-Standardized formatting (state abbreviations, phone numbers, bonus percentages).
+Removed duplicates and corrected errors
 
-Cleaned text using TRIM() and corrected spelling errors.
+Standardized state, city, phone numbers, and job titles
 
-Reorganized columns for better readability.
+Added calculated fields for years of service and salary with bonus
 
-Updated job titles (“Salesman” → “Salesperson”).
+Orders Data
 
-Added calculated fields:
+Split comma-separated values into columns
 
-Years of service → =YEAR(TODAY()) - YEAR(Hire Date)
+Reformatted order dates and headers
 
-Salary with Bonus → =Salary * (1 + Bonus %)
+Split full names into first/last name
 
-Orders Worksheet
+Improved layout for readability
 
-Converted comma-separated data into columns.
+Insights & Recommendations
 
-Reformatted Order Date values and standardized headers.
+Some order records are missing location details (critical for delivery).
 
-Split full employee names into First Name / Last Name.
+A customer email field would improve tracking and communication.
 
-Adjusted column widths for readability.
-
-Hid less relevant columns for a cleaner layout.
-
-Observations & Recommendations
-
-The First Name column may be redundant if full names are kept.
-
-Adding a Customer Email field would improve order tracking.
-
-Missing city/state values need attention since deliveries are limited to Richland and Hastings.
-
-Tools & Skills
+Skills Used
 
 Microsoft Excel
 
-Data cleaning & formatting techniques
+Data cleaning and standardization
 
 Functions: TRIM(), YEAR(), TODAY()
 
-Text to Columns, Find & Replace, Remove Duplicates
+Text to Columns, Remove Duplicates, Find & Replace
 
-Quality control and formatting for usability
-
-File Organization
-
+Project Structure
 freedom-rock-cleanup/
-├── raw_data/
-│   └── employees_raw.xlsx
-├── cleaned_data/
-│   ├── employees_cleaned.xlsx
-│   └── orders_cleaned.xlsx
-├── final_reports/
-│   ├── salary_bonus_analysis.xlsx
-│   └── formatted_orders.xlsx
+├── raw_data/           # Original files
+├── cleaned_data/       # Cleaned employee & order data
+├── final_reports/      # Salary analysis & formatted orders
 └── README.md
